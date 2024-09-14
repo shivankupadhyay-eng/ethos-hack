@@ -1,0 +1,21 @@
+root/
+│
+├── assets/
+│   └── fonts/
+│       └── SpaceMono-Regular.ttf
+├── components/
+│   ├── ThemedText.tsx
+│   ├── ThemedView.tsx
+├── hooks/
+│   └── useColorScheme.ts
+├── screens/
+│   ├── ChatScreen.tsx
+│   ├── HomeScreen.tsx
+│   └── NotFoundScreen.tsx
+├── services/
+│   └── ChatService.ts
+├── _layout.tsx
+├── +html.tsx
+├── +not-found.tsx
+├── app.json
+└── package.json
