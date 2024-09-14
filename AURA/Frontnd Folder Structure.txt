@@ -1,0 +1,86 @@
+Aura/
+|
+|--.expo/
+├── README.md
+├── devices.json
+├── types
+│   └── router.d.ts
+└── web
+|  └── cache
+|        └── production
+|           └── images
+|               └── favicon
+|                  └── favicon-24272cdaeff82cc5facdaccd982a6f05b60c4504704bbf94c19a6388659880bb-contain-transparent
+|                     └── favicon-48.png
+|
+|--app/
+|	├── +html.tsx
+|	├── +not-found.tsx
+|	├── AURA.lnk
+|	└── _layout.tsx
+|
+|
+|--assets/
+		├── fonts
+		│   └── SpaceMono-Regular.ttf
+		└── images
+    			├── adaptive-icon.png
+    			├── favicon.png
+    			├── icon.png
+    			├── partial-react-logo.png
+    			├── react-logo.png
+    			├── react-logo@2x.png
+    			├── react-logo@3x.png
+    			└── splash.png
+|
+|
+|--components/
+		├── Collapsible.tsx
+		├── ExternalLink.tsx
+		├── HelloWave.tsx
+		├── ParallaxScrollView.tsx
+		├── ThemedText.tsx
+		├── ThemedView.tsx
+		├── __tests__
+		│   ├── ThemedText-test.tsx
+		│   └── __snapshots__
+		│       └── ThemedText-test.tsx.snap
+		└── navigation
+    			└── TabBarIcon.tsx
+|
+|
+|--constants/
+    └── Colors.ts
+|
+|
+|--hooks/
+        ├── useColorScheme.ts
+        ├── useColorScheme.web.ts
+        └── useThemeColor.ts
+|
+|
+|--node_modules
+|
+|
+|--screens/
+        ├── ChatScreen.tsx
+        ├── HomeScreen.tsx
+        └── NotFoundScreen.tsx
+|
+|
+|--scripts/
+        └── reset-project.js
+|
+|
+|--services/
+        └── ChatService.ts
+|
+|
+├── .gitignore
+├── README.md
+├── app.json
+├── babel.config.js
+├── expo-env.d.ts
+├── package-lock.json
+├── package.json
+└── tsconfig.json
