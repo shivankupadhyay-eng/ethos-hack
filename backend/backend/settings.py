@@ -36,9 +36,12 @@ INSTALLED_APPS = [
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
+    'daphne',
+    'channels',
     'django.contrib.staticfiles',
     'core',
-    'rest_framework'
+    'rest_framework',
+    
 ]
 
 MIDDLEWARE = [
@@ -135,4 +138,15 @@ AUTHENTICATION_BACKENDS = [
     'django.contrib.auth.backends.ModelBackend',
 ]
 
-    
+ASGI_APPLICATION = 'backend.asgi.application'
+
+import os
+SECRET_CHAT_KEY = os.getenv('SECRET_CHAT_KEY', b'your-default-secret-key-16-bytes')
+
+# settings.py
+
+CHANNEL_LAYERS = {
+    'default': {
+        'BACKEND': 'channels.layers.InMemoryChannelLayer',
+    },
+}
